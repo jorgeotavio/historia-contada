@@ -1,19 +1,27 @@
 * {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-    grid-template-rows: minmax(100px, auto);
-    grid-template-areas: "main main" "footer footer";
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: minmax(100px, auto);
+  grid-template-areas: "main main" "footer footer";
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
-    text-align: center;
-    padding: 12px;
-    color: white;
-    background-color: #040F0F;
-    grid-area: footer;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  background-color: #040f0f;
+  grid-area: footer;
 }
