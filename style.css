@@ -30,6 +30,14 @@
     font-family: 'Fjalla One', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
 .content {
     grid-area: content;
     min-height: 92vh;
